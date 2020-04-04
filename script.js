@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
 
   // Unix timestamp (in seconds) to count down to
-  var birthdayfromnow = (new Date(2020, 3, 4, 11, 45) / 1000);
+  var birthdayfromnow = (new Date("04/05/2020") / 1000);
 
   // Set up FlipDown
   var flipdown = new FlipDown(birthdayfromnow)
